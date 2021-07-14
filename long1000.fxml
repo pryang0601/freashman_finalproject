@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1503.0" prefWidth="1446.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_project.Long1000Controller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1503.0" prefWidth="1446.0">
+         <children>
+            <WebView fx:id="web" layoutX="698.0" layoutY="167.0" prefHeight="1004.0" prefWidth="678.0" />
+            <Button fx:id="back" layoutX="951.0" layoutY="1257.0" mnemonicParsing="false" onAction="#BackPage" text="回上頁">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="1173.0" layoutY="1257.0" mnemonicParsing="false" onAction="#onexitPressed" text="結束">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="pic1" fitHeight="269.0" fitWidth="228.0" layoutX="135.0" layoutY="17.0" onMouseClicked="#showlink">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic2" fitHeight="265.0" fitWidth="236.0" layoutX="439.0" layoutY="18.0" onMouseClicked="#showlink2">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s1.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic3" fitHeight="276.0" fitWidth="234.0" layoutX="64.0" layoutY="296.0" onMouseClicked="#showlink3">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s9.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic4" fitHeight="284.0" fitWidth="236.0" layoutX="346.0" layoutY="296.0" onMouseClicked="#showlink4">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic10" fitHeight="287.0" fitWidth="228.0" layoutX="475.0" layoutY="1195.0" onMouseClicked="#showlink10">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic8" fitHeight="280.0" fitWidth="226.0" layoutX="346.0" layoutY="897.0" onMouseClicked="#showlink8">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic5" fitHeight="286.0" fitWidth="236.0" layoutX="127.0" layoutY="593.0" onMouseClicked="#showlink5">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s6.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic7" fitHeight="278.0" fitWidth="224.0" layoutX="40.0" layoutY="897.0" onMouseClicked="#showlink7">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic9" fitHeight="285.0" fitWidth="226.0" layoutX="136.0" layoutY="1195.0" onMouseClicked="#showlink9">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s10.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic6" fitHeight="287.0" fitWidth="222.0" layoutX="453.0" layoutY="593.0" onMouseClicked="#showlink6">
+               <image>
+                  <Image url="@../../../../../Desktop/衣服照片/短袖長褲(1000)/s5.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
