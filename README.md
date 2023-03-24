@@ -1,6 +1,8 @@
 # weather-crawler
 >Interface : Scenebuilder
+### It is a project that can crawl the weather information in the Central Weather Bureau website. People can use the project to see the in time report and alert. Accoring to the present temperature, the system will give users serveral choices to pick the apporpriate outfit. Then, the screen will show some picture that linked to the clothes stores where users can see the whole information of the clothes directly.</br>
 
+## User Instructions
 Use the scrollbox to choose the city you want to know, after click the city, it will show the temperature and the overall weather report by central weather bureau. 
 
 Next, it will appear two button to choose.
